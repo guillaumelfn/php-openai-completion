@@ -4,7 +4,7 @@
 // PS- Thats the beauty of PHP. its easy ! 
 
 // include this and you have completion !
-require_once './includes/OpenAI.php';
+require_once 'OpenAI.php';
 
 $openai = New OpenAI();
 
