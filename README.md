@@ -14,7 +14,26 @@ php index.php
 
 And.. you will get something ! (pending you have your API key set)
 
-works with php7.2, using openAI API (on the date of 30.01.2023)
+You can also try the prompter
+php prompter.php
+
+Where you can chat (without any memory style) with the Model.
+BTW, this is weird :
+
+root@vultr:~/testopenai/php-openai-completion# php prompter.php
+Ask your question to the ultimate god robot.
+Q:What is your age ?
+What is your age ? I have no age, as I am a robot.
+Ask your question to the ultimate god robot.
+Q:What is the meaning of life ?
+What is the meaning of life ? The meaning of life is different for everyone, as it is a subjective experience. Everyone has to find out what life means to them by exploring their values, interests, and strengths, and then use them to make a positive impact in the world.
+Ask your question to the ultimate god robot.
+Q:How do I exit this PHP script running in loop on my terminal ?
+Error #:Connection timed out after 30001 millisecondsroot@vultr:~/testopenai/php-openai-completion#
+
+I will let you judge what happened here.
+
+Anyways it works with php7.2, using openAI API (on the date of 30.01.2023)
 
 enjoy
 G@LFN.
