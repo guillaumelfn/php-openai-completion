@@ -29,7 +29,7 @@ $response = $openai->completion("text-davinci-003", $prompt, 256);
 $answer =(json_decode($response)->choices[0]->text);
 
 // Let's print both prompt and answer.
-echo $answer."\n";
+echo "A:".$answer."\n";
 
 }
 
