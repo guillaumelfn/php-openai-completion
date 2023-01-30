@@ -6,7 +6,7 @@ I wanted to have a quick PHP implementation for doing completion using OpenAI (G
 And I have done it ! 
 
 index.php is where the magic happens (where you put in the prompt)
-includes/openAI.php is where you put in your API Key (change function API_KEY()) , 
+openAI.php is where you put in your API Key (change function API_KEY()) , 
 also function configuration() permits you to adit your openAI settings like temperature, topp, presence_penalty, frequence_penalty, best_of, stream.
 
 to run it
