@@ -23,13 +23,13 @@ A:";
 
  // LEt's get a response.
 // Usage : completion(model,start of question, length);
-$response = $openai->completion("text-davinci-003", $prompt."\n"."A:", 256);
+$response = $openai->completion("text-davinci-003", $prompt, 256);
 
 // Let's get the answer from openAI within the response.
 $answer =(json_decode($response)->choices[0]->text);
 
 // Let's print both prompt and answer.
-echo $question.$answer."\n";
+echo $answer."\n";
 
 }
 
